@@ -1,0 +1,173 @@
+/* Work on basic web design, game design and the website gradient
+   color schemes CSS done was by Aitzaz Qadir Khowaja (B00853169) */
+
+:root {
+	font-family: 'Roboto', sans-serif;
+	background-image: linear-gradient(lightblue, lightcoral);
+}
+
+body {
+    width : 85vw;
+    margin: auto;
+    height: 100%;
+	overflow: auto;
+}
+
+#nav-bar {
+	margin: 8px 0;
+	font-size: larger;
+	border-radius: 4px;
+	padding: 0 0 5px 15px;
+	border: 2px solid darkblue;
+	background-color: lightgreen;
+}
+
+h2 {
+	color: white;
+	font-size: 26pt;
+	transition-duration: 0.2s;
+}
+
+h1:hover {
+	color: white;
+	transition-duration: 0.2s;
+}
+
+h2:hover {
+	color: yellow;
+	transition-duration: 0.2s;
+}
+
+#main-container {
+	display: flex;
+	text-align: center;
+	font-size: x-large;
+}
+
+#game-container {
+	width: 75%;
+}
+
+#side-bar {
+	width: 24%;
+	height: 28.15vw;
+	margin-left: auto;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	border: 2px solid darkblue;
+	background-color: lightblue;
+}
+
+#timer-interface {
+	height: 25vw;
+	padding-top: 5%;
+	font-size: 25pt;
+	border-radius: 4px;
+	background-color: pink;
+	transition-duration: 0.2s;
+	border: 2px solid darkblue;
+}
+
+#button-container {
+	display: flex;
+	justify-content: flex-start;
+	padding: 10px;
+}
+
+.game-button {
+	margin: 0 5px;
+	cursor: pointer;
+	padding: 10px 20px;
+	border-radius: 4px;
+	font-size: x-large;
+	background-color: pink;
+	transition-duration: 0.3s;
+	border: 2px solid darkblue;
+}
+
+.game-button:hover {
+	background-color: lightgoldenrodyellow;
+}
+
+a {
+	margin-left: 20px;
+	display: inline-block;
+}
+
+a:hover {
+	transition-duration: 0.3s;
+	background-color: lightyellow;
+}
+
+/* Button clicking mechanism CSS done by Md Asef Jawad (B00856362) */
+
+.game-button:active {
+	transform: translateY(5px);
+}
+
+/* Confusing button colors and their was CSS done by 
+   Hao Wang (B00692430) and Ruiting Yao (B00527867) */
+
+#red-button{
+	background-color: cornflowerblue;
+}
+#blue-button{
+	background-color: green;
+}
+#green-button{
+	background-color: yellow;
+}
+#yellow-button{
+	background-color: red;
+}
+
+#group-name {
+	font-size: large;
+	text-align: center;
+}
+
+#ol {
+	font-weight: bold;
+}
+
+/* Work on dashboard page and mechanism's CSS done by Kelvin Bagthariya (B00823366) */
+
+th{
+  color: black;
+  background-color: #92a8d1;
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+
+}
+
+td{
+	color: black;
+    padding: 15px;
+    text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+	background-color: #d5e1df;
+}
+
+tr:hover {
+	background-color: #92a8d1;
+}
+
+table{
+	border-collapse: collapse;
+	background: white;
+  	width: 90%;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#right-nav{
+	margin: auto;
+	width: fit-content;
+	padding: 6px 0;
+	padding-right: 15px;
+	background-color: lightblue;
+}
